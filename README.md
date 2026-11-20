@@ -21,6 +21,7 @@ Quick climate checks for early design in the Gulf, written in Python for Rhino 8
 
 The tools draw on their own `GK_` layers. They do not delete anything outside those layers.
 Results print in the command line, for example the mean sun hours or the FAR of each option.
+Most tools finish in seconds. GulfMashrabiya builds 495 panel surfaces and takes a few minutes.
 
 ## Test your own massing
 The block is defined in `gulfkit.py` as `BLOCKS`: one line per box, `(x0, y0, x1, y1, height)` in metres, north = +Y.
